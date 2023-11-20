@@ -10,3 +10,4 @@ note to self: stuff to change when creating a copy
 4. make sure VSCode's Astro, Prettier, and ESLint extensions are installed
 5. update package.json
 6. make sure Vercel is configured
+7. update `site` in `astro.config.ts`
