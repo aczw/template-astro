@@ -1,9 +1,10 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
-// copied straight from shadcn/ui... thanks shadcn
+// taken from shadcn/ui, function name and all
 const cn = (...inputs: ClassValue[]) => {
   return twMerge(clsx(inputs));
 };
 
 export { cn };
+
