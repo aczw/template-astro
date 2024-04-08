@@ -5,10 +5,14 @@ import vercel from "@astrojs/vercel/serverless";
 import { defineConfig } from "astro/config";
 
 const config = defineConfig({
-  site: "https://charl.sh",
-  integrations: [sitemap(), mdx(), tailwind({
-    applyBaseStyles: false,
-  })],
+  site: "https://google.com",
+  integrations: [
+    sitemap(),
+    mdx(),
+    tailwind({
+      applyBaseStyles: false,
+    }),
+  ],
   output: "hybrid",
   adapter: vercel({
     imageService: true,

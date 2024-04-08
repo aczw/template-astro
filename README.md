@@ -8,6 +8,7 @@ note to self: stuff to change when creating a copy
 2. update robots.txt
 3. decide whether MDX integration is necessary
 4. make sure VSCode's Astro, Prettier, and ESLint extensions are installed
-5. update package.json
-6. make sure Vercel is configured
+5. update name, version, etc. in package.json
+6. change adapter if necessary (Vercel is default), otherwise configure Vercel
 7. update `site` in `astro.config.ts`
+8. check whether we want static or SSR in `astro.config.ts`
