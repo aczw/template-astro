@@ -5,7 +5,7 @@ import vercel from "@astrojs/vercel/serverless";
 import { defineConfig } from "astro/config";
 
 const config = defineConfig({
-  site: "https://google.com",
+  site: "SITE HERE",
   integrations: [
     sitemap(),
     mdx(),
