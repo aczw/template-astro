@@ -6,7 +6,7 @@ note to self: stuff to change when creating a copy
 
 1. update favicon (.ico, 48x48 .png, .svg)
 2. update robots.txt
-3. decide whether MDX integration is necessary
+3. decide whether MDX integration is necessary (and update .eslintrc accordingly)
 4. make sure VSCode's Astro, Prettier, and ESLint extensions are installed
 5. update name, version, etc. in package.json
 6. change adapter if necessary (Vercel is default), otherwise configure Vercel
